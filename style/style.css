@@ -11,6 +11,11 @@
     padding: 0 15px;
 }
 
+.header {
+    background: url(../img/header_bg_image.jpg) no-repeat center center /cover;
+    height: 100vh;
+}
+
 .logo {
     font-size: 20px;
     color: red;
@@ -28,6 +33,10 @@
     display: flex;
 }
 
+.header__li {
+    list-style: none;
+}
+
 .header__nav-link {
     font-size: 18px;
     color: #4d4d4d;
@@ -40,5 +49,38 @@
 
 .header__nav-link:hover {
     background: #515151;
-    color: ;
+    color: white;
+}
+
+.header__content-title {
+    color: #cb0a15;
+    font-size:  40px;
+    font-family: arial;
+}
+
+.header__content-text {
+    font-family: arial;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+
+.header__content-span {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.header__row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    transform: rotate(-10deg);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
